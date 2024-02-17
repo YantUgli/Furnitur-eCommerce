@@ -58,7 +58,7 @@ export default function Home() {
         {/* Fetures Section */}
         <Fetures />
         {/* Services Section */}
-        <Services />
+        {/* <Services /> */}
         {/* CTA Section */}
         {/* <CTA /> */}
         {/* Portofolio Section */}
