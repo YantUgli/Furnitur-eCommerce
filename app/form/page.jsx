@@ -14,7 +14,7 @@ import React, { useEffect, useState } from 'react'
 //     return res.json()
 // }
 
-function page() {
+function Page() {
     // const data = getData()
     // console.log(data, "hai");
     const [data, setData] = useState({})
@@ -47,4 +47,4 @@ function page() {
     )
 }
 
-export default page
+export default Page
