@@ -4,7 +4,7 @@
 import React, { useEffect, useState } from 'react';
 import Navbar from "@/components/navbar"
 import Hero from "@/components/Hero"
-import About from "@/components/About"
+import Range from "@/components/Range"
 import Fetures from '@/components/Fetures';
 import Services from '@/components/Services';
 import CTA from '@/components/CTA';
@@ -15,6 +15,9 @@ import Team from '@/components/Team';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 import { IconArrowNarrowUp } from '@tabler/icons-react';
+import Product from '@/components/Product';
+import Rooms from '@/components/Rooms';
+import Share from '@/components/Share';
 
 
 export default function Home() {
@@ -48,34 +51,27 @@ export default function Home() {
   }, []);
 
   return (
-    <div className=" bg-white overflow-hidden">
+    <div className=" bg-white overflow-hidden text-maintext font-Poppins">
       <Navbar isScrolled={isScrolled} activeSection={activeSection} />
-      {/* Hero Section */}
       <Hero />
-      <main>
-        {/* About Section */}
-        <About />
-        {/* Fetures Section */}
-        <Fetures />
-        {/* Services Section */}
+      <main className=''>
+        <Range />
+        <Product />
+        <Rooms />
+        <Share />
+        {/* <Fetures /> */}
         {/* <Services /> */}
-        {/* CTA Section */}
         {/* <CTA /> */}
-        {/* Portofolio Section */}
         {/* <Portfolio /> */}
-        {/* Count Section */}
         {/* <Count /> */}
-        {/* Testimoni Section */}
         {/* <Testimoni /> */}
-        {/* Team Section */}
         {/* <Team /> */}
-        {/* Contact Section */}
         {/* <Contact /> */}
       </main>
       {/* Footer */}
       <Footer />
       {isScrolled &&
-        <a href="#" className='aspect-square  w-12 mx-auto bg-purple-700 flex justify-center items-center rounded-md fixed bottom-5 right-5'>
+        <a href="#" className='aspect-square  w-12 mx-auto bg-primary flex justify-center items-center rounded-md fixed bottom-5 right-5'>
           <IconArrowNarrowUp color='white' />
 
         </a>

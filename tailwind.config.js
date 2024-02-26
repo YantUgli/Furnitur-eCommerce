@@ -12,6 +12,18 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        primary: '#B88E2F',
+        secondary: '#FFF3E3',
+        maintext: '#333333'
+      },
+      fontFamily: {
+        Poppins: ['Poppins'],
+        Monserrat : ['Monserrat']
+      },
+      aspectRatio: {
+        card : '9/12'
+      },
     },
   },
   plugins: [],
