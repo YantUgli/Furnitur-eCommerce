@@ -10,12 +10,12 @@ import { IconArrowNarrowRight } from '@tabler/icons-react';
 function Rooms() {
     return (
         <section className=' bg-secondary '>
-            <div className=' flex w-full h-full pl-28'>
-                <div className='flex-none w-2/5   flex justify-end items-center'>
+            <div className='flex-col-reverse lg:flex-row flex w-full h-full lg:pl-28'>
+                <div className='flex-none w-full lg:w-2/5 pb-6 px-4 lg:pb-0  flex justify-end items-center'>
                     <div>
-                        <h1 className='text-4xl font-extrabold'>50+ Beautiful rooms
+                        <h1 className='text-2xl lg:text-4xl font-extrabold'>50+ Beautiful rooms
                             inspiration</h1>
-                        <p className='w-4/5'>
+                        <p className='w-4/5 text-sm lg:text-base'>
                             Our designer already made a lot of beautiful prototipe of rooms that inspire you
                         </p>
                         <button className='bg-primary py-3 px-6 text-white font-bold mt-4'>
@@ -23,13 +23,21 @@ function Rooms() {
                         </button>
                     </div>
                 </div>
-                <div className='w-3/5 py-10 flex justify-center items-center'>
+                <div className='w-full lg:w-3/5 py-10 flex justify-center items-center'>
                     <Swiper
                         spaceBetween={50}
-                        slidesPerView={1.5}
+                        slidesPerView={1}
                         autoplay={{
                             delay: 2500,
                             disableOnInteraction: false,
+                        }}
+                        breakpoints={{
+                            768: {
+                                slidesPerView: 1.2,
+                            },
+                            1024: {
+                                slidesPerView: 1.5,
+                            },
                         }}
                         pagination={{
                             clickable: true,
@@ -38,7 +46,7 @@ function Rooms() {
                         className="mySwiper "
                     >
                         <SwiperSlide>
-                            <div className='w-[400px] h-[580px]  rounded-sm overflow-hidden relative'>
+                            <div className='w-[400px] h-[450px] lg:h-[450px] rounded-sm overflow-hidden relative'>
                                 <img src="Cozy.png" alt="" className='w-full h-full object-cover' />
                                 <div className='absolute  bottom-5  left-5 flex items-end'>
                                     <div className='bg-white/85 py-8 px-6 h-full'>
@@ -62,7 +70,7 @@ function Rooms() {
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <div className='w-[400px] h-[580px]  rounded-sm overflow-hidden relative'>
+                            <div className='w-[400px] h-[450px] lg:h-[580px]  rounded-sm overflow-hidden relative'>
                                 <img src="Cozy.png" alt="" className='w-full h-full object-cover' />
                                 <div className='absolute  bottom-5  left-5 flex items-end'>
                                     <div className='bg-white/85 py-8 px-6 h-full'>
@@ -86,7 +94,7 @@ function Rooms() {
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <div className='w-[400px] h-[580px]  rounded-sm overflow-hidden relative'>
+                            <div className='w-[400px] h-[450px] lg:h-[580px]  rounded-sm overflow-hidden relative'>
                                 <img src="Cozy.png" alt="" className='w-full h-full object-cover' />
                                 <div className='absolute  bottom-5  left-5 flex items-end'>
                                     <div className='bg-white/85 py-8 px-6 h-full'>
@@ -110,7 +118,7 @@ function Rooms() {
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <div className='w-[400px] h-[580px]  rounded-sm overflow-hidden relative'>
+                            <div className='w-[400px] h-[450px] lg:h-[580px]  rounded-sm overflow-hidden relative'>
                                 <img src="Cozy.png" alt="" className='w-full h-full object-cover' />
                                 <div className='absolute  bottom-5  left-5 flex items-end'>
                                     <div className='bg-white/85 py-8 px-6 h-full'>

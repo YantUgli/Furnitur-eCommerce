@@ -12,13 +12,13 @@ function Range() {
                 viewport={{ once: true }}
                 variants={staggerChildren}
                 className=' px-6 '>
-                <div className='grid justify-center items-center text-center'>
-                    <h1 className='capitalize text-3xl font-extrabold pb-2'>
+                <div className='grid justify-center items-center text-center text-sm lg:text-base'>
+                    <h1 className='capitalize text-2xl lg:text-3xl font-extrabold pb-2'>
                         browse the range
                     </h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
-                <div className='grid grid-cols-3 gap-4 justify-center items-center pt-12 text-center font-bold text-2xl'>
+                <div className='grid grid-cols-3 gap-4 justify-center items-center pt-12 text-center font-bold  lg:text-2xl'>
                     <div className=''>
                         <div className='w-full aspect-card mb-6 rounded-lg overflow-hidden'>
                             <img src="Range1.png" alt="" className='w-full h-full object-cover' />

@@ -71,7 +71,7 @@ export default function Home() {
       {/* Footer */}
       <Footer />
       {isScrolled &&
-        <a href="#" className='aspect-square  w-12 mx-auto bg-primary flex justify-center items-center rounded-md fixed bottom-5 right-5'>
+        <a href="#" className='aspect-square  w-12 mx-auto bg-primary flex justify-center items-center rounded-md fixed bottom-5 right-5 z-50'>
           <IconArrowNarrowUp color='white' />
 
         </a>

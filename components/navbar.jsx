@@ -37,17 +37,23 @@ function Navbar({ isScrolled, activeSection }) {
                 initial="hidden"
                 animate="visible"
                 variants={fadeInUp}
-                className="text-3xl font-extrabold font-Monserrat ">
+                className="text-xl lg:text-3xl font-extrabold font-Monserrat ">
                 YantDev
             </motion.a>
-            <Burger color={isScrolled ? 'white' : 'black'} opened={opened} onClick={open} aria-label="Toggle navigation" className='lg:hidden' />
+            <Burger color='' opened={opened} onClick={open} aria-label="Toggle navigation" className='lg:hidden' />
             <Drawer className='' radius='md' opened={opened} onClose={close} position='right' size='50%' color='black'>
+                <div className='flex gap-8 mb-4'>
+                    <IconSearch />
+                    <IconHeart />
+                    <IconShoppingCart />
+                </div>
                 <div className=' grid'>
                     <a href="#home" className={activeSection == 'home' ? 'text-primary' : ''} onClick={close} >Home</a>
                     <a href="#services" className={activeSection == 'services' ? 'text-primary' : ''} onClick={close} >Shop</a>
                     <a href="#about" className={activeSection == 'about' ? 'text-primary' : ''} onClick={close} >About</a>
                     <a href="#contact" className={activeSection == 'contact' ? 'text-primary' : ''} onClick={close} >Contact</a>
                 </div>
+
             </Drawer>
 
             <motion.div variants={staggerNavbar} initial='hidden' animate='visible' className=" gap-7 hidden lg:flex">
@@ -56,7 +62,7 @@ function Navbar({ isScrolled, activeSection }) {
                 <motion.a variants={fadeInUp} href="#about" className={activeSection == 'about' ? 'text-primary' : ''} >About</motion.a>
                 <motion.a variants={fadeInUp} href="#contact" className={activeSection == 'contact' ? 'text-primary' : ''}>Contact</motion.a>
             </motion.div>
-            <div className='flex gap-8'>
+            <div className='lg:flex gap-8 hidden'>
                 <IconSearch />
                 <IconHeart />
                 <IconShoppingCart />
