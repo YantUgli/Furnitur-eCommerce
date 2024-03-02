@@ -47,7 +47,7 @@ function Rooms() {
                     >
                         <SwiperSlide>
                             <div className='w-[400px] h-[450px] lg:h-[450px] rounded-sm overflow-hidden relative'>
-                                <img src="Cozy.png" alt="" className='w-full h-full object-cover' />
+                                <img src="Cozy.png" alt="rooms" className='w-full h-full object-cover' />
                                 <div className='absolute  bottom-5  left-5 flex items-end'>
                                     <div className='bg-white/85 py-8 px-6 h-full'>
                                         <div className='flex items-center gap-2'>
@@ -71,7 +71,7 @@ function Rooms() {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className='w-[400px] h-[450px] lg:h-[580px]  rounded-sm overflow-hidden relative'>
-                                <img src="Cozy.png" alt="" className='w-full h-full object-cover' />
+                                <img src="Cozy.png" alt="rooms" className='w-full h-full object-cover' />
                                 <div className='absolute  bottom-5  left-5 flex items-end'>
                                     <div className='bg-white/85 py-8 px-6 h-full'>
                                         <div className='flex items-center gap-2'>
@@ -95,7 +95,7 @@ function Rooms() {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className='w-[400px] h-[450px] lg:h-[580px]  rounded-sm overflow-hidden relative'>
-                                <img src="Cozy.png" alt="" className='w-full h-full object-cover' />
+                                <img src="Cozy.png" alt="rooms" className='w-full h-full object-cover' />
                                 <div className='absolute  bottom-5  left-5 flex items-end'>
                                     <div className='bg-white/85 py-8 px-6 h-full'>
                                         <div className='flex items-center gap-2'>
@@ -119,7 +119,7 @@ function Rooms() {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className='w-[400px] h-[450px] lg:h-[580px]  rounded-sm overflow-hidden relative'>
-                                <img src="Cozy.png" alt="" className='w-full h-full object-cover' />
+                                <img src="Cozy.png" alt="rooms" className='w-full h-full object-cover' />
                                 <div className='absolute  bottom-5  left-5 flex items-end'>
                                     <div className='bg-white/85 py-8 px-6 h-full'>
                                         <div className='flex items-center gap-2'>

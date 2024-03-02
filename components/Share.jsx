@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 function Share() {
@@ -13,30 +14,36 @@ function Share() {
             </div>
             <div className='grid grid-cols-6 grid-rows-4  gap-4 h-[80vh] pt-6 '>
                 <div className='row-span-2 col-span-2 bg-red-300'>
-                    <img src="Product1.png" alt="" className='w-full h-full object-cover object-bottom' />
+                    <img src="Product1.png" alt="share" className='w-full h-full object-cover object-bottom' />
                 </div>
                 <div className='row-start-2 col-start-3 col-span-2 row-span-3 bg-red-300'>
-                    <img src="Hero.png" alt="" className='w-full h-full object-cover object-bottom' />
-
+                    <Image
+                        alt="Mountains"
+                        src='/Hero.png'
+                        quality={100}
+                        fill
+                        sizes="100vw"
+                        className='object-cover'
+                    />
                 </div>
                 <div className=' row-span-2 bg-red-300'>
-                    <img src="Range2.png" alt="" className='w-full h-full object-cover object-bottom' />
+                    <img src="Range2.png" alt="share" className='w-full h-full object-cover object-bottom' />
 
                 </div>
                 <div className='  row-span-4 bg-red-300'>
-                    <img src="Range4.png" alt="" className='w-full h-full object-cover object-bottom' />
+                    <img src="Range4.png" alt="share" className='w-full h-full object-cover object-bottom' />
 
                 </div>
                 <div className='  row-span-2 bg-red-300'>
-                    <img src="image2.png" alt="" className='w-full h-full object-cover object-bottom' />
+                    <img src="image2.png" alt="share" className='w-full h-full object-cover object-bottom' />
 
                 </div>
                 <div className='  row-span-2 bg-red-300'>
-                    <img src="image3.png" alt="" className='w-full h-full object-cover object-bottom' />
+                    <img src="image3.png" alt="share" className='w-full h-full object-cover object-bottom' />
 
                 </div>
                 <div className='  row-span-2 bg-red-300'>
-                    <img src="image4.png" alt="" className='w-full h-full object-cover object-bottom' />
+                    <img src="image4.png" alt="share" className='w-full h-full object-cover object-bottom' />
 
                 </div>
 

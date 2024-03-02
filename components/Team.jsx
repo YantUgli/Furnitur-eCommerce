@@ -14,7 +14,7 @@ function Team() {
                 <div className='pt-8 md:pt-16 grid grid-cols-2 md:grid-cols-4 gap-4 '>
                     <div className='rounded-md w-full h-fit overflow-hidden border shadow-md'>
                         <div className='w-full aspect-square '>
-                            <img src="team-1.jpg" alt="" className='w-full object-cover' />
+                            <img src="team-1.jpg" alt="team" className='w-full object-cover' />
                         </div>
                         <div className='py-4 px-2 md:py-6 md:px-4 capitalize'>
                             <h1 className='text-base md:text-xl font-bold'>Walter White</h1>
@@ -23,7 +23,7 @@ function Team() {
                     </div>
                     <div className='rounded-md w-full h-fit overflow-hidden border shadow-md'>
                         <div className='w-full aspect-square '>
-                            <img src="team-1.jpg" alt="" className='w-full object-cover' />
+                            <img src="team-1.jpg" alt="team" className='w-full object-cover' />
                         </div>
                         <div className='py-4 px-2 md:py-6 md:px-4 capitalize'>
                             <h1 className='text-base md:text-xl font-bold'>Walter White</h1>
@@ -32,7 +32,7 @@ function Team() {
                     </div>
                     <div className='rounded-md w-full h-fit overflow-hidden border shadow-md'>
                         <div className='w-full aspect-square '>
-                            <img src="team-1.jpg" alt="" className='w-full object-cover' />
+                            <img src="team-1.jpg" alt="team" className='w-full object-cover' />
                         </div>
                         <div className='py-4 px-2 md:py-6 md:px-4 capitalize'>
                             <h1 className='text-base md:text-xl font-bold'>Walter White</h1>
@@ -41,7 +41,7 @@ function Team() {
                     </div>
                     <div className='rounded-md w-full h-fit overflow-hidden border shadow-md'>
                         <div className='w-full aspect-square '>
-                            <img src="team-1.jpg" alt="" className='w-full object-cover' />
+                            <img src="team-1.jpg" alt="team" className='w-full object-cover' />
                         </div>
                         <div className='py-4 px-2 md:py-6 md:px-4 capitalize'>
                             <h1 className='text-base md:text-xl font-bold'>Walter White</h1>

@@ -1,6 +1,7 @@
 import React from 'react'
 import { fadeInUp, staggerChildren, zoomOut } from '@/app/animations';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 function Range() {
     return (
@@ -21,19 +22,19 @@ function Range() {
                 <div className='grid grid-cols-3 gap-4 justify-center items-center pt-12 text-center font-bold  lg:text-2xl'>
                     <div className=''>
                         <div className='w-full aspect-card mb-6 rounded-lg overflow-hidden'>
-                            <img src="Range1.png" alt="" className='w-full h-full object-cover' />
+                            <img src="Range1.png" alt="Range" className='w-full object-cover' />
                         </div>
                         <h2>Dining</h2>
                     </div>
                     <div className=''>
                         <div className='w-full aspect-card mb-6 rounded-lg overflow-hidden'>
-                            <img src="Range4.png" alt="" className='w-full h-full object-cover' />
+                            <img src="Range4.png" alt="Range" className='w-full h-full object-cover' />
                         </div>
                         <h2>Living</h2>
                     </div>
                     <div className=''>
                         <div className='w-full aspect-card mb-6 rounded-lg overflow-hidden'>
-                            <img src="Range3.png" alt="" className='w-full h-full object-cover' />
+                            <img src="Range3.png" alt="Range" className='w-full h-full object-cover' />
                         </div>
                         <h2>Bedroom</h2>
                     </div>

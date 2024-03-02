@@ -29,7 +29,7 @@ function Testimoni() {
                     <SwiperSlide className='pb-8 '>
                         <div className='flex flex-col justify-center items-center'>
                             <div className='aspect-square w-20 border-4 border-white/70 rounded-full overflow-hidden '>
-                                <img src="testimonials-5.jpg" alt="" className='w-full object-cover' />
+                                <img src="testimonials-5.jpg" alt="testi" className='w-full object-cover' />
                             </div>
                             <h1 className='capitalize text-lg font-bold'>Matt Brandon</h1>
                             <h2 className='capitalize text-sm'>
@@ -47,7 +47,7 @@ function Testimoni() {
                     <SwiperSlide className='pb-8 '>
                         <div className='flex flex-col justify-center items-center'>
                             <div className='aspect-square w-20 border-4 border-white/70 rounded-full overflow-hidden '>
-                                <img src="testimonials-5.jpg" alt="" className='w-full object-cover' />
+                                <img src="testimonials-5.jpg" alt="testi" className='w-full object-cover' />
                             </div>
                             <h1 className='capitalize text-lg font-bold'>Matt Brandon</h1>
                             <h2 className='capitalize text-sm'>
@@ -65,7 +65,7 @@ function Testimoni() {
                     <SwiperSlide className='pb-8 '>
                         <div className='flex flex-col justify-center items-center'>
                             <div className='aspect-square w-20 border-4 border-white/70 rounded-full overflow-hidden '>
-                                <img src="testimonials-5.jpg" alt="" className='w-full object-cover' />
+                                <img src="testimonials-5.jpg" alt="testi" className='w-full object-cover' />
                             </div>
                             <h1 className='capitalize text-lg font-bold'>Matt Brandon</h1>
                             <h2 className='capitalize text-sm'>

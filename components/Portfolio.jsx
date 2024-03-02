@@ -46,7 +46,7 @@ function Portofolio() {
                         <SwiperSlide className='pb-8  '>
                             <div className='rounded-md shadow-md overflow-hidden border border-slate-300'>
                                 <div className='aspect-video w-full bg-red-400 relative'>
-                                    <img src="roar.jpg" alt="" className='w-full h-full object-cover object-top' />
+                                    <img src="roar.jpg" alt="porto" className='w-full h-full object-cover object-top' />
                                     <div className='absolute bg-black/60 w-full h-full z-10 flex justify-center items-center top-0 left-0 text-white text-sm opacity-0 hover:opacity-100 transition-all duration-300' >
                                         <a href="portfolio" target='_blank' className=' py-2 px-4 border-4 border-white capitalize border-double rounded-md'  >view detail</a>
                                     </div>
@@ -57,7 +57,7 @@ function Portofolio() {
                         <SwiperSlide className='pb-8  '>
                             <div className='rounded-md shadow-md overflow-hidden border border-slate-300'>
                                 <div className='aspect-video w-full bg-red-400 relative'>
-                                    <img src="roar.jpg" alt="" className='w-full h-full object-cover object-top' />
+                                    <img src="roar.jpg" alt="porto" className='w-full h-full object-cover object-top' />
                                     <div className='absolute bg-black/60 w-full h-full z-10 flex justify-center items-center top-0 left-0 text-white text-sm opacity-0 hover:opacity-100 transition-all duration-300' >
                                         <a href="portfolio" target='_blank' className=' py-2 px-4 border-4 border-white capitalize border-double rounded-md'  >view detail</a>
                                     </div>
@@ -68,7 +68,7 @@ function Portofolio() {
                         <SwiperSlide className='pb-8  '>
                             <div className='rounded-md shadow-md overflow-hidden border border-slate-300'>
                                 <div className='aspect-video w-full bg-red-400 relative'>
-                                    <img src="roar.jpg" alt="" className='w-full h-full object-cover object-top' />
+                                    <img src="roar.jpg" alt="porto" className='w-full h-full object-cover object-top' />
                                     <div className='absolute bg-black/60 w-full h-full z-10 flex justify-center items-center top-0 left-0 text-white text-sm opacity-0 hover:opacity-100 transition-all duration-300' >
                                         <a href="portfolio" target='_blank' className=' py-2 px-4 border-4 border-white capitalize border-double rounded-md'  >view detail</a>
                                     </div>
@@ -79,7 +79,7 @@ function Portofolio() {
                         <SwiperSlide className='pb-8  '>
                             <div className='rounded-md shadow-md overflow-hidden border border-slate-300'>
                                 <div className='aspect-video w-full bg-red-400 relative'>
-                                    <img src="roar.jpg" alt="" className='w-full h-full object-cover object-top' />
+                                    <img src="roar.jpg" alt="porto" className='w-full h-full object-cover object-top' />
                                     <div className='absolute bg-black/60 w-full h-full z-10 flex justify-center items-center top-0 left-0 text-white text-sm opacity-0 hover:opacity-100 transition-all duration-300' >
                                         <a href="portfolio" target='_blank' className=' py-2 px-4 border-4 border-white capitalize border-double rounded-md'  >view detail</a>
                                     </div>

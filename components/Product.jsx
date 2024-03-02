@@ -27,7 +27,7 @@ function Product() {
                         </div>
                     </div>
                     <div className='w-full h-2/3 rounded-t-sm overflow-hidden'>
-                        <img src="Product1.png" alt="" className='w-full h-full object-fill object-bottom' />
+                        <img src="Product1.png" alt="product" className=' object-fill object-bottom' />
                     </div>
                     <div className='p-2 lg:px-2 lg:py-4 w-full h-1/3 grid'>
                         <h2 className='lg:text-2xl font-bold capitalize'>
@@ -55,7 +55,7 @@ function Product() {
                         </div>
                     </div>
                     <div className='w-full h-2/3 rounded-t-sm overflow-hidden'>
-                        <img src="Product1.png" alt="" className='w-full h-full object-fill object-bottom' />
+                        <img src="Product1.png" alt="product" className='w-full h-full object-fill object-bottom' />
                     </div>
                     <div className='p-2 lg:px-2 lg:py-4 w-full h-1/3 grid'>
                         <h2 className='lg:text-2xl font-bold capitalize'>
@@ -83,7 +83,7 @@ function Product() {
                         </div>
                     </div>
                     <div className='w-full h-2/3 rounded-t-sm overflow-hidden'>
-                        <img src="Product1.png" alt="" className='w-full h-full object-fill object-bottom' />
+                        <img src="Product1.png" alt="product" className='w-full h-full object-fill object-bottom' />
                     </div>
                     <div className='p-2 lg:px-2 lg:py-4 w-full h-1/3 grid'>
                         <h2 className='lg:text-2xl font-bold capitalize'>
@@ -111,7 +111,7 @@ function Product() {
                         </div>
                     </div>
                     <div className='w-full h-2/3 rounded-t-sm overflow-hidden'>
-                        <img src="Product1.png" alt="" className='w-full h-full object-fill object-bottom' />
+                        <img src="Product1.png" alt="product" className='w-full h-full object-fill object-bottom' />
                     </div>
                     <div className='p-2 lg:px-2 lg:py-4 w-full h-1/3 grid'>
                         <h2 className='lg:text-2xl font-bold capitalize'>
@@ -139,7 +139,7 @@ function Product() {
                         </div>
                     </div>
                     <div className='w-full h-2/3 rounded-t-sm overflow-hidden'>
-                        <img src="Product1.png" alt="" className='w-full h-full object-fill object-bottom' />
+                        <img src="Product1.png" alt="product" className='w-full h-full object-fill object-bottom' />
                     </div>
                     <div className='p-2 lg:px-2 lg:py-4 w-full h-1/3 grid'>
                         <h2 className='lg:text-2xl font-bold capitalize'>
@@ -167,7 +167,7 @@ function Product() {
                         </div>
                     </div>
                     <div className='w-full h-2/3 rounded-t-sm overflow-hidden'>
-                        <img src="Product1.png" alt="" className='w-full h-full object-fill object-bottom' />
+                        <img src="Product1.png" alt="product" className='w-full h-full object-fill object-bottom' />
                     </div>
                     <div className='p-2 lg:px-2 lg:py-4 w-full h-1/3 grid'>
                         <h2 className='lg:text-2xl font-bold capitalize'>
@@ -195,7 +195,7 @@ function Product() {
                         </div>
                     </div>
                     <div className='w-full h-2/3 rounded-t-sm overflow-hidden'>
-                        <img src="Product1.png" alt="" className='w-full h-full object-fill object-bottom' />
+                        <img src="Product1.png" alt="product" className='w-full h-full object-fill object-bottom' />
                     </div>
                     <div className='p-2 lg:px-2 lg:py-4 w-full h-1/3 grid'>
                         <h2 className='lg:text-2xl font-bold capitalize'>
@@ -223,7 +223,7 @@ function Product() {
                         </div>
                     </div>
                     <div className='w-full h-2/3 rounded-t-sm overflow-hidden'>
-                        <img src="Product1.png" alt="" className='w-full h-full object-fill object-bottom' />
+                        <img src="Product1.png" alt="product" className='w-full h-full object-fill object-bottom' />
                     </div>
                     <div className='p-2 lg:px-2 lg:py-4 w-full h-1/3 grid'>
                         <h2 className='lg:text-2xl font-bold capitalize'>

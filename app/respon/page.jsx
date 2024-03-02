@@ -11,7 +11,7 @@ function page() {
                 <div className="bg-blue-300 w-full aspect-video">
                     <img
                         src='about.jpg'
-                        alt=""
+                        alt="reson"
                         className="w-full h-full object-cover object-center"
                     />
                 </div>
@@ -19,14 +19,14 @@ function page() {
                     <div className="w-1/2 aspect-video">
                         <img
                             src='about.jpg'
-                            alt=""
+                            alt="reson"
                             className="w-full h-full object-cover object-center"
                         />
                     </div>
                     <div className="w-1/2  aspect-video">
                         <img
                             src='about.jpg'
-                            alt=""
+                            alt="reson"
                             className="w-full h-full object-cover object-center"
                         />
                     </div>
@@ -169,7 +169,7 @@ function page() {
                                     </li>
                                 </ul>
                                 <div className='flex-none w-1/2 aspect-video  flex flex-col justify-center items-center gap-1' >
-                                    <img src="about.jpg" alt="" className='w-full h-full object-cover' />
+                                    <img src="about.jpg" alt="reson" className='w-full h-full object-cover' />
                                     <button className='text-[8px] py-1 px-2  bg-green-800 text-white rounded-xl'>Porsi : 0</button>
                                 </div>
                             </div>
@@ -191,7 +191,7 @@ function page() {
                                     </li>
                                 </ul>
                                 <div className='flex-none w-1/2 aspect-video  flex flex-col justify-center items-center gap-1' >
-                                    <img src="about.jpg" alt="" className='w-full h-full object-cover' />
+                                    <img src="about.jpg" alt="reson" className='w-full h-full object-cover' />
                                     <button className='text-[8px] py-1 px-2  bg-green-800 text-white rounded-xl'>Porsi : 0</button>
                                 </div>
                             </div>

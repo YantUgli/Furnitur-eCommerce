@@ -32,7 +32,7 @@ function Navbar({ isScrolled, activeSection }) {
         }
     }, [isLarge]);
     return (
-        <nav className={`w-full flex justify-around items-center py-4  lg:px-8  fixed z-10 capitalize   ${isScrolled ? 'bg-white shadow-xl' : ''}`}>
+        <nav className={`w-full flex justify-around items-center py-4  lg:px-8  fixed z-20 capitalize   ${isScrolled ? 'bg-white shadow-xl' : ''}`}>
             <motion.a
                 initial="hidden"
                 animate="visible"
