@@ -13,10 +13,10 @@ function Share() {
                 </h1>
             </div>
             <div className='grid grid-cols-6 grid-rows-4  gap-4 h-[80vh] pt-6 '>
-                <div className='row-span-2 col-span-2 bg-red-300'>
+                <div className='row-span-2 col-span-2 '>
                     <img src="Product1.png" alt="share" className='w-full h-full object-cover object-bottom' />
                 </div>
-                <div className='row-start-2 col-start-3 col-span-2 row-span-3 bg-red-300'>
+                <div className='relative row-start-2 col-start-3 col-span-2 row-span-3 '>
                     <Image
                         alt="Mountains"
                         src='/Hero.png'
@@ -26,23 +26,23 @@ function Share() {
                         className='object-cover'
                     />
                 </div>
-                <div className=' row-span-2 bg-red-300'>
+                <div className=' row-span-2 '>
                     <img src="Range2.png" alt="share" className='w-full h-full object-cover object-bottom' />
 
                 </div>
-                <div className='  row-span-4 bg-red-300'>
+                <div className='  row-span-4 '>
                     <img src="Range4.png" alt="share" className='w-full h-full object-cover object-bottom' />
 
                 </div>
-                <div className='  row-span-2 bg-red-300'>
+                <div className='  row-span-2 '>
                     <img src="image2.png" alt="share" className='w-full h-full object-cover object-bottom' />
 
                 </div>
-                <div className='  row-span-2 bg-red-300'>
+                <div className='  row-span-2 '>
                     <img src="image3.png" alt="share" className='w-full h-full object-cover object-bottom' />
 
                 </div>
-                <div className='  row-span-2 bg-red-300'>
+                <div className='  row-span-2 '>
                     <img src="image4.png" alt="share" className='w-full h-full object-cover object-bottom' />
 
                 </div>

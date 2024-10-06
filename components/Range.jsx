@@ -22,7 +22,7 @@ function Range() {
                 <div className='grid grid-cols-3 gap-4 justify-center items-center pt-12 text-center font-bold  lg:text-2xl'>
                     <div className=''>
                         <div className='w-full aspect-card mb-6 rounded-lg overflow-hidden'>
-                            <img src="Range1.png" alt="Range" className='w-full object-cover' />
+                            <img src="Range1.png" alt="Range" className='w-full h-full object-cover' />
                         </div>
                         <h2>Dining</h2>
                     </div>

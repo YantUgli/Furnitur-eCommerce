@@ -5,9 +5,13 @@ import React, { useEffect, useState } from 'react'
 import { fadeInUp, scaleIn, staggerNavbar } from '@/app/animations';
 import { motion } from 'framer-motion';
 import { IconHeart, IconSearch, IconShoppingCart } from '@tabler/icons-react';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 
 function Navbar({ isScrolled, activeSection }) {
+    const pathName = usePathname()
+    console.log(pathName);
     const [opened, { open, close }] = useDisclosure();
     const [isLarge, setIsLarge] = useState(true);
     useEffect(() => {
@@ -34,6 +38,7 @@ function Navbar({ isScrolled, activeSection }) {
     return (
         <nav className={`w-full flex justify-around items-center py-4  lg:px-8  fixed z-20 capitalize   ${isScrolled ? 'bg-white shadow-xl' : ''}`}>
             <motion.a
+                href='#'
                 initial="hidden"
                 animate="visible"
                 variants={fadeInUp}
@@ -48,7 +53,7 @@ function Navbar({ isScrolled, activeSection }) {
                     <IconShoppingCart />
                 </div>
                 <div className=' grid'>
-                    <a href="#home" className={activeSection == 'home' ? 'text-primary' : ''} onClick={close} >Home</a>
+                    <Link href='/' className={pathName == '/' ? 'text-primary' : ''} onClick={close} >Home</Link>
                     <a href="#services" className={activeSection == 'services' ? 'text-primary' : ''} onClick={close} >Shop</a>
                     <a href="#about" className={activeSection == 'about' ? 'text-primary' : ''} onClick={close} >About</a>
                     <a href="#contact" className={activeSection == 'contact' ? 'text-primary' : ''} onClick={close} >Contact</a>
@@ -57,7 +62,7 @@ function Navbar({ isScrolled, activeSection }) {
             </Drawer>
 
             <motion.div variants={staggerNavbar} initial='hidden' animate='visible' className=" gap-7 hidden lg:flex">
-                <motion.a variants={fadeInUp} href="#home" className={activeSection == 'home' ? 'text-primary' : ''} >Home</motion.a>
+                <motion.a variants={fadeInUp} href="/" className={pathName == '/' ? 'text-primary' : ''} >Home</motion.a>
                 <motion.a variants={fadeInUp} href="#services" className={activeSection == 'services' ? 'text-primary' : ''} >Shop</motion.a>
                 <motion.a variants={fadeInUp} href="#about" className={activeSection == 'about' ? 'text-primary' : ''} >About</motion.a>
                 <motion.a variants={fadeInUp} href="#contact" className={activeSection == 'contact' ? 'text-primary' : ''}>Contact</motion.a>
@@ -66,6 +71,12 @@ function Navbar({ isScrolled, activeSection }) {
                 <IconSearch />
                 <IconHeart />
                 <IconShoppingCart />
+                <Link href='/login'>
+                    Login
+                </Link>
+                <Link href='/signin'>
+                    Sign-in
+                </Link>
             </div>
         </nav>
     )
